@@ -1,21 +1,31 @@
 {
-  "name": "dude_with_overalls",
+  "name": "dudeWithOveralls-master",
   "version": "1.0.0",
-  "description": "",
-  "private": true,
+  "description": "* Background and Overview     * Inspired by the game we all grew up on (and if you personally didn't, I feel bad for you), Super Mario Land.     * The game will aim to replicate the notorious game but written using JavaScript with new implemented features that the       original game never included.. (well it might have but i never got past the 3rd level so tbh idk...) * Functionality and MVP Features     * Create canvas with background image of Super Mario.     * Create mini levels with cinder blocks, spikes, and steps     * Create Mario (Dude With Overalls so I don't get sued) as a moving character     * DWO can move right left and jump up using arrow keys and WAD keys.     * Create coins as elements collected in order to be able to move to next stage     * Make DWO be able to get to an end point in each level that (with all coins collected) will pass him onto next stage           (flagpole)     * Spikes take DWO's life and reset current stage play is on.",
+  "main": "webpack.config.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {
+    "lodash": "^4.17.11"
+  },
+  "devDependencies": {
+    "webpack": "^4.35.0",
+    "webpack-cli": "^3.3.5"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack",
     "webpack": "webpack --watch --mode=development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yardenroee/dudeWithOveralls.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "devDependencies": {
-    "webpack": "^4.33.0",
-    "webpack-cli": "^3.3.4"
+  "bugs": {
+    "url": "https://github.com/yardenroee/dudeWithOveralls/issues"
   },
-  "dependencies": {
-    "lodash": "^4.17.11"
-  }
+  "homepage": "https://github.com/yardenroee/dudeWithOveralls#readme"
 }
