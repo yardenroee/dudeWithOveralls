@@ -2,7 +2,7 @@
 
 * Background and Overview
     * Inspired by the game we all grew up on (and if you personally didn't, I feel bad for you), Super Mario Land.
-    * The game will aim to replicate the notorious game but written using JavaScript with new implemented features that the       original game never included.. (well it might have but i never got past the 3rd level so tbh idk...)
+    * The game will aim to replicate the notorious game but written using JavaScript.
 * Functionality and MVP Features
     * Create canvas with background image of Super Mario.
     * Create mini levels with cinder blocks, spikes, and steps
