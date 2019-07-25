@@ -1,8 +1,8 @@
 # Dude With Overalls
+* Overview
 
-* Background and Overview
-    * Inspired by the game we all grew up on (and if you personally didn't, I feel bad for you), Super Mario Land.
-    * The game will aim to replicate the notorious game but written using JavaScript.
+    [Dude With Overalls](https://yardenroee.com/dudeWithOveralls/) was inspired by the game we all grew up on (and if you          personally didn't, I feel bad for you), Super Mario Land. A vanilla JavaScript platform game designed and written without      any API or game engines.  
+    
 * Functionality and MVP Features
     * Create canvas with background image of Super Mario.
     * Create mini levels with cinder blocks, spikes, and steps
